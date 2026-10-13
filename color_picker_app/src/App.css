@@ -1,0 +1,53 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.App{ 
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   padding: 0px;
+   min-height: 100vh;
+   padding-top: 30px;
+   color: aliceblue;
+   
+}
+h1 {
+  color: aliceblue;
+}
+
+
+
+.color-palate{
+   padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.color-box{
+  width: 50px;
+  height : 50px;
+  border: 2px solid rgb(187, 221, 234);
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+  .custom-color-picker input{
+    margin-top: 20px;
+  }
+
+.custom-color-picker input{
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+.custom-color-picker input:hover{
+  background-color: #555;
+}
